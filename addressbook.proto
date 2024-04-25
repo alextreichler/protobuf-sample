@@ -1,6 +1,7 @@
 syntax = "proto3";
 package fake_models;
 
+import "google/rpc/status.proto";
 option go_package = "pkg/protobuf";
 
 message Address {
